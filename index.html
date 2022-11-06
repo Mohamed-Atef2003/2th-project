@@ -4,98 +4,93 @@
     <meta charset="UTF-8">
     <title>project2</title>
 </head>
-<body bgcolor="green">
-    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
-        <form >
-            <div>
-                        <!--to input first name-->
-                <label for="first"  >First Name :</label>
-                <input type="text" id="first" placeholder="Enter Your First Name" required>
-            </div>
+<body bgcolor="burlywood">
     
-            <div>
-                        <!--to input second name-->
-                <label for="sec" >Second Name :</label>
-                <input type="text"  id="sec" placeholder="Enter Your Second Name" required >
-            </div>
-                
+    <form >
+        
+        <div>
+                    <!--to input first name-->
+            <label for="first" style="color:red ;">First Name :</label>
+            <input type="text" id="first" placeholder="Enter Your First Name" required>
+        </div>
+
+        <div>
+                    <!--to input second name-->
+            <label for="sec" style="color:red ;" >Second Name :</label>
+            <input type="text"  id="sec" placeholder="Enter Your Second Name" required >
+        </div>
             
-    
-           <div>
-                    <!--to input Phone Number-->
-                    <label for="phone" >Your Phone :</label>
-                    <input type="number" id="phone" placeholder="Enter Your Phone Number" minlength="10" maxlength="15"  required>
-           </div>
-    
+        
+
+       <div>
+                <!--to input Phone Number-->
+                <label for="phone" style="color:red ;" >Your Phone :</label>
+                <input type="number" id="phone" placeholder="Enter Your Phone Number" minlength="10" maxlength="15"  required>
+       </div>
+
+        
+
+     
+        <div>
+                            <!--to input E-email-->
+            <label for="email" style="color:red ;" >E-email :</label>
+            <input type="email" id="email" placeholder="Enter Your E-email" required>
+        </div>
+   
+
+        
+        <div>
+                <!--to input Password--> 
+        <label for="password" style="color:red ;" >Password :</label>
+        <input type="password" id="password" placeholder="Enter Your password" required>
+        </div>
+        
+        <div>
+            <select name="option" required>
+                <optgroup label="Group1">
+                    <option value="option1.1"> option1.1 </option>
+                </optgroup>
+                <optgroup label="Group2">
+                    <option value="option2.1"> option2.1 </option>
+                    <option value="option2.2"> option2.2 </option>
+                </optgroup>
+                <optgroup label="Group3">
+                    <option value="option3.1"> option3.1 </option>
+                    <option value="option3.2"> option3.2 </option>
+                    <option value="option3.3"> option3.3 </option>
+                </optgroup>
+            </select>
             
-    
-         
-            <div>
-                                <!--to input E-email-->
-                <label for="email" >E-email :</label>
-                <input type="email" id="email" placeholder="Enter Your E-email" required>
-            </div>
+        </div>
        
-    
-            
-            <div>
-                    <!--to input Password--> 
-            <label for="password" >Password :</label>
-            <input type="password" id="password" placeholder="Enter Your password" required>
-            </div>
-            
-            <div>
-                <select name="option" required>
-                    <optgroup label="Group1">
-                        <option value="option1.1"> option1.1 </option>
-                    </optgroup>
-                    <optgroup label="Group2">
-                        <option value="option2.1"> option2.1 </option>
-                        <option value="option2.2"> option2.2 </option>
-                    </optgroup>
-                    <optgroup label="Group3">
-                        <option value="option3.1"> option3.1 </option>
-                        <option value="option3.2"> option3.2 </option>
-                        <option value="option3.3"> option3.3 </option>
-                    </optgroup>
-                </select>
-                
-            </div>
-           
-         
-            <div>
-                        <!--to choose male-->
-                <label for="male" >male</label>
-                <input type="radio" id="male" value="male">
-            </div>
-         
-            <div>
-                    <!--to choose female-->
-                <label for="fem" >female</label>
-                <input type="radio" id="fem"  value="female">
-            </div>    
-              
-            <div>
-                        <!--to choose student-->
-                <label for="stu" >student</label>
-                <input type="checkbox" id="stu" value="student">
-            </div>
-    
-            <div>
-                    <!--to choose Graduated-->
-                <label for="gre" >Graduated</label>
-                <input type="checkbox" id="gre"  value="Graduated">
-            </div>    
+     
+        <div>
+                    <!--to choose male-->
+            <label for="male" style="color:blue ;" >male</label>
+            <input type="radio" id="male" />
        
-           
-           
-    
-           
-            <button > submit </button>
-            
-        </form>
-    </canvas>
-    
+                <!--to choose female-->
+            <label for="fem" style="color:blue ;" >female</label>
+            <input type="radio" id="fem"  />
+        </div>    
+          
+        <div>
+                    <!--to choose student-->
+            <label for="stu" style="color:blue ;" >student</label>
+            <input type="checkbox" id="stu" value="student"/>
+       
+                <!--to choose Graduated-->
+            <label for="gre" style="color:blue ;" >Graduated</label>
+            <input type="checkbox" id="gre"  value="Graduated"/>
+        </div>    
+   
+       
+       
+
+       
+        <button > submit </button>
+        
+    </form>
 
 </body>
 </html>
